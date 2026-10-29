@@ -1,0 +1,17 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "dev.enjarai.amethystgravity.mixin",
+  "compatibilityLevel": "JAVA_16",
+  "mixins": [
+  ],
+  "client": [
+    "EntityMixinClient"
+  ],
+  "server": [
+    "EntityMixinServer"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
